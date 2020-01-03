@@ -41,6 +41,8 @@ end
 def total_gross(source)
   director_names_and_totals = directors_totals(source)
   gross = 0 
-  binding.pry 
+  director_names_and_totals.each do |key,value|
+    binding.pry
+  end
 end
 
