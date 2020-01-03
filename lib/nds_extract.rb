@@ -39,7 +39,8 @@ end
 
 
 def total_gross(source)
-  binding.pry 
   director_names_and_totals = directors_totals(source)
+  gross = 0 
+  binding.pry 
 end
 
